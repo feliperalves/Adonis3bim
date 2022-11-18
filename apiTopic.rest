@@ -3,7 +3,7 @@
 ######### Cadastro Tópico 
 POST http://127.0.0.1:3333/topics HTTP/1.1
 Content-Type: application/json
-Authorization: Bearer Mg.TM4EY0zxfclSkjfPwMKWDkhaWtF6lnBWggCZE7fKpGE3X9xgdvNh0VRk7tfn
+Authorization: Bearer Ng.TJLrtJM4B0K_3knZUxab-UE-E3OwPl0BQdiROiZnpiwMWDB1XKlAXbCGjK7Y
 
 {
     "name": "Web1"
@@ -13,17 +13,17 @@ Authorization: Bearer Mg.TM4EY0zxfclSkjfPwMKWDkhaWtF6lnBWggCZE7fKpGE3X9xgdvNh0VR
 ######### Listar todos os Tópico 
 GET http://127.0.0.1:3333/topics HTTP/1.1 
 Content-Type: application/json
-Authorization: Bearer Mg.TM4EY0zxfclSkjfPwMKWDkhaWtF6lnBWggCZE7fKpGE3X9xgdvNh0VRk7tfn
+Authorization: Bearer Ng.TJLrtJM4B0K_3knZUxab-UE-E3OwPl0BQdiROiZnpiwMWDB1XKlAXbCGjK7Y
 
 ######### Listar Tópico específico
 GET http://127.0.0.1:3333/topics/1 HTTP/1.1 
 Content-Type: application/json
-Authorization: Bearer Mg.TM4EY0zxfclSkjfPwMKWDkhaWtF6lnBWggCZE7fKpGE3X9xgdvNh0VRk7tfn
+Authorization: Bearer Ng.TJLrtJM4B0K_3knZUxab-UE-E3OwPl0BQdiROiZnpiwMWDB1XKlAXbCGjK7Y
 
 ######### Alterar Tópico 
 PUT http://127.0.0.1:3333/topics/1 HTTP/1.1 
 Content-Type: application/json 
-Authorization: Bearer Mg.TM4EY0zxfclSkjfPwMKWDkhaWtF6lnBWggCZE7fKpGE3X9xgdvNh0VRk7tfn
+Authorization: Bearer Ng.TJLrtJM4B0K_3knZUxab-UE-E3OwPl0BQdiROiZnpiwMWDB1XKlAXbCGjK7Y
 
 {
     "name": "Web II"
@@ -33,4 +33,4 @@ Authorization: Bearer Mg.TM4EY0zxfclSkjfPwMKWDkhaWtF6lnBWggCZE7fKpGE3X9xgdvNh0VR
 ######### Apagar Tópico
 DELETE http://127.0.0.1:3333/topics/1 HTTP/1.1 
 Content-Type: application/json
-Authorization: Bearer Mg.TM4EY0zxfclSkjfPwMKWDkhaWtF6lnBWggCZE7fKpGE3X9xgdvNh0VRk7tfn
+Authorization: Bearer Ng.TJLrtJM4B0K_3knZUxab-UE-E3OwPl0BQdiROiZnpiwMWDB1XKlAXbCGjK7Y
